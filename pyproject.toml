@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "aleph"
+version = "0.0.1"
+license = "GPL-3.0 license"
+description = "Aleph is Urani's Python in-house MEV agent, designed to take advantage of MEV opportunities on the Solana Blockchain through the Urani Protocol."
+authors = ['Urani Labs', 'bt3gl', 'Sage', 'Luca']
+readme = "README.md"
+packages = [
+    { include = "src" },
+]
+
+[tool.poetry.scripts]
+mcli = "src.main:main"
+start_server = "src.protocol_server.utils.server_utils:start_server"
+stop_server = "src.protocol_server.utils.server_utils:stop_server"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+apscheduler = "^3.10"
+base58 = "^2.1"
+httpx = "^0.27"
+requests = "^2.32"
+solana = "^0.34"
+solders = "^0.21"
+pythclient = "0.1.24"
+python-dotenv = "*"
+ujson = "^5.0"
+scipy = "^1.14"
+fastapi = "^0.112.0"
+uvicorn = "^0.30.6"
+beautifulsoup4 = "^4.12.2" 
+jinja2 = "^3.1.2"
+
+[tool.poetry.group.dev.dependencies]
+tox = "^4.15.1"
+black = "^24.1.1"
+flake8 = "^7.0.0"
+isort = "^5.13.2"
+mypy = "^1.8.0"
+pylint = "^3.0.3"
+pytest = "^8.3.2"
+requests = "^2.32.3"
+pytest-ordering = "^0.6"
+pytest-order = "^1.2.1"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
