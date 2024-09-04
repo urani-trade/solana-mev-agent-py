@@ -1,0 +1,220 @@
+INFO:     Will watch for changes in these directories: ['/Users/luca/programmi/solana-mev-agent-py']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [28801] using StatReload
+INFO:     Started server process [28805]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:61016 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61016 - "GET /static/background.png HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:61023 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61024 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61025 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61026 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61028 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61029 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61030 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61037 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61041 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61042 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61044 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61045 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61046 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61047 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61048 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61049 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61050 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61051 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61052 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61053 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61060 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61061 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61062 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61063 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61064 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61065 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61066 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61067 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61068 - "POST /batches HTTP/1.1" 201 Created
+INFO:     127.0.0.1:61069 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61072 - "POST /solutions HTTP/1.1" 201 Created
+INFO:     127.0.0.1:61073 - "GET /solutions HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'src/liquidity/base.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [28805]
+INFO:     Started server process [29110]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'src/liquidity/jupiter.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [29110]
+INFO:     Started server process [29125]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:61091 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61094 - "POST /solutions HTTP/1.1" 201 Created
+WARNING:  StatReload detected changes in 'src/liquidity/cexes/binance.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [29125]
+INFO:     Started server process [29181]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'src/oracles/dexscreener.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [29181]
+INFO:     Started server process [29233]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'src/oracles/helius.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [29233]
+INFO:     Started server process [29246]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'src/oracles/pyth.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [29246]
+INFO:     Started server process [29260]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'src/orders/batch.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [29260]
+INFO:     Started server process [29303]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'src/orders/intent.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [29303]
+INFO:     Started server process [29336]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'src/orders/quote.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [29336]
+INFO:     Started server process [29348]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'src/orders/quote.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [29348]
+INFO:     Started server process [29356]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'src/orders/solution.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [29356]
+INFO:     Started server process [29425]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'src/orders/solution.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [29425]
+INFO:     Started server process [29436]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'src/orders/batch.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [29436]
+INFO:     Started server process [29495]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:61227 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61230 - "POST /solutions HTTP/1.1" 201 Created
+WARNING:  StatReload detected changes in 'src/orders/batch.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [29495]
+INFO:     Started server process [29537]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:61247 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61251 - "POST /solutions HTTP/1.1" 201 Created
+INFO:     127.0.0.1:61253 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61256 - "POST /solutions HTTP/1.1" 201 Created
+WARNING:  StatReload detected changes in 'src/p2p/level_one.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [29537]
+INFO:     Started server process [29606]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'src/utils/maths.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [29606]
+INFO:     Started server process [29646]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'src/utils/network.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [29646]
+INFO:     Started server process [29661]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'src/utils/network.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [29661]
+INFO:     Started server process [29690]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:61308 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61311 - "POST /solutions HTTP/1.1" 201 Created
+INFO:     127.0.0.1:61312 - "GET /solutions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61312 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61312 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61314 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61322 - "GET /solutions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61324 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61325 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61326 - "GET /batches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61327 - "GET /batches HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'src/agents/aleph.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [29690]
+INFO:     Started server process [30825]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'src/agents/main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [30825]
+INFO:     Started server process [30839]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
