@@ -1,23 +1,21 @@
-# Aleph: Urani's First MEV Agent Template (Python)
+## MEV Agent Aleph
 
 <br>
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/78cb883e-8ba4-4a63-8f67-1f33f4a827bf" width="25%" align="center" style="padding:1px;border:1px solid black;"/>
+<img src="https://github.com/user-attachments/assets/78cb883e-8ba4-4a63-8f67-1f33f4a827bf" width="20%" align="center" style="padding:1px;border:1px solid black;"/>
 </p>
 
 
 
 <br>
 
-#### [Agent Aleph](https://docs.urani.ag/agents/operator-onboarding/uranis-in-house-agents/mev-agent-aleph) is Urani's in-house arbitrage agent written in Python. Although the private version of Aleph is always running in the Arena to help with gauging and fallback, this template brings the basic proprieties of this agent to the public.
+#### 👉🏼 [Agent Aleph](https://docs.urani.ag/agents/operator-onboarding/uranis-in-house-agents/mev-agent-aleph) is Urani's in-house arbitrage agent written in Python. Although the private version of Aleph is private for the Urani Protocol, this template brings its basic proprieties to the public.
 
-#### Authors: **[bt3gl](https://github.com/von-steinkirch)** and **[luca-nik](https://github.com/luca-nik)**.
-
-<br>
+#### 👉🏼 Authors: **[bt3gl](https://github.com/von-steinkirch)** and **[luca-nik](https://github.com/luca-nik)**.
 
 #### 👉🏼 **[Details on how the public version of Aleph v0.1 works](#how-aleph-works)**.
-#### 👉🏼 **[Entry point: Run Aleph thorugh the CLI](#run-aleph-through-the-cli)**.
+#### 👉🏼 **[Details on how to run Aleph thorugh its CLI](#run-aleph-through-the-cli)**.
 
 
 <br>
@@ -110,13 +108,15 @@ src
 
 <br>
 
-### Setup
+### Local Setup
 
 <br>
 
 Create a `.env` file :
+
 ```bash
 cp .env.example .env
+vim .env
 ```
 
 <br>
@@ -172,7 +172,7 @@ tests/test_aleph.py .                                                           
 
 ---
 
-### CLI commands
+### Running the CLI
 
 <br>
 
@@ -189,10 +189,8 @@ poetry run mcli -h
   "8a,   ,a88  88          88,    ,88  88       88  88  
    `"YbbdP'Y8  88          `"8bbdP"Y8  88       88  88        
 
-                                                             
-usage: mcli [-h] [-s] [-a [AGENT]] [-d [AGENT]] [-l] [-o]
 
-Mulder CLI: Urani MEV Agent.
+Aleph CLI: Urani MEV Agent.
 
 options:
   -h, --help            show this help message and exit
@@ -214,7 +212,7 @@ options:
 
 <br>
 
-This first version of Aleph interacts with a local-server initialized by the user that mimics the Urani protocol orderbook.
+This first version of Aleph interacts with a local-server initialized by the user that mimics the Urani Protocol.
 
 <br>
 
@@ -346,10 +344,15 @@ poetry run stop_server
 
 <br>
 
-----
 
-## Contributing
+---
+
+### License and Contributing
+
+<br>
+
+This project is distributed under the **[Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0)**. 
 
 You are welcome to contribute. See the guidelines **[here](.internal/CONTRIBUTING.md)**.
 
-
+<br>
